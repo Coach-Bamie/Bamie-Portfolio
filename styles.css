@@ -1,0 +1,168 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: blue;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero h1 {
+    font-size: 40px;
+}
+
+#about, #projects, #contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+#projects .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#projects .project-item {
+    background-color: black;
+    padding: 20px;
+    width: 45%;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#projects .project-item h3 {
+    font-size: 24px;
+}
+
+#projects .project-item p {
+    font-size: 16px;
+}
+
+#projects .project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #199543;
+    text-decoration: none;
+    border: 1px solid #199543;
+    padding: 5px 10px;
+}
+
+#projects .project-item a:hover {
+    background-color: #199543;
+    color: white;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+#contact button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    border-radius:40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 0 0 20px white;
+  
+  }
+ .social-links {
+  display: flex;            /* Makes items align in a row */
+  justify-content: center;   /* Centers the icons horizontally */
+  gap: 20px;                 /* Adds space between each icon */
+  margin-top: 20px;          /* Adds space at the top */
+}
+
+.social-links a {
+  color: white; 
+  font-size: 50px;
+  transition: color 0.3s ease;
+  align: center;
+}
+
+.social-links a:hover {
+  color: #199543; /* Your brand color */
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
